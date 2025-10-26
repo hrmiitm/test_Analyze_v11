@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Analyze_v11 - Results</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Analyze_v11</h1>
+    <p>This site will be updated by GitHub Actions. The CI job runs ruff and then executes <code>python execute.py &gt; result.json</code>. The generated <code>result.json</code> is published to GitHub Pages.</p>
+
+    <p>If result.json is available on the Pages site you can view it here:</p>
+    <p><a id="result-link" href="/result.json">View result.json</a></p>
+
+    <h2>Live output</h2>
+    <div id="output">
+      <p>Click the button below to load the latest result.json (if published).</p>
+      <button id="load">Load result.json</button>
+      <pre id="json">(no data)</pre>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
